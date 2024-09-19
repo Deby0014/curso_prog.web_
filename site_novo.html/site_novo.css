@@ -1,0 +1,44 @@
+.titulo{
+    text-align: center;
+}
+a{
+    background-color: rgba(204, 220, 226, 0.705);
+    padding: 10px 20px;
+    border: 1px  solid;
+    text-align: center;
+
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-content: start;
+   
+}
+.info{
+    background-color: rgb(217, 212, 221);
+}
+
+.restaurante{
+
+   justify-content: center;
+   display: grid;
+   grid-template-columns: 500px 500px ;
+}
+img{
+    
+    max-width: 100%;
+    
+}
+h2{
+    background-color: rgba(227, 222, 231,0.5);
+}
+.div2{
+    background-color: rgb(205, 199, 211);
+    grid-template-columns: 2fr 3fr;
+}
+
+.div2 img{
+    width: 40px;
+}

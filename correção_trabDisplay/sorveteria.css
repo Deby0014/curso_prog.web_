@@ -1,0 +1,33 @@
+.sorveteria{
+    color: rgb(7, 8, 7);
+}
+.morango{
+    width: 800;
+    height: 150px;
+    background: rgb(16, 17, 16);
+    border: 10px solid rgb(255, 255, 255);
+    margin-bottom: 50px;
+    border-radius: 20px;
+}
+
+h2{
+    color: rgb(254, 255, 254);
+}
+P{
+    color: rgb(254, 255, 254);
+} 
+a{
+    color: rgb(254, 255, 254);
+    background: rgb(35, 187, 35);
+}
+.uva{
+    width: 800;
+    height: 150px;
+    background: rgb(16, 17, 16);
+    border: 10px solid rgb(255, 255, 255);
+    margin-bottom: 50px;
+    border-radius: 20px;
+}
+h2{
+    color: rgb(255, 0, 0);
+} 

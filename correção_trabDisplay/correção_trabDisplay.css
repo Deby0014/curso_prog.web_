@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+.caixa {
+    background: black;
+    padding: 20px;
+    margin: 20px;
+}
+
+h2 {
+    margin: 0;
+    color: white;
+}
+
+span {
+    color: rgb(255, 200, 0);
+}
+
+p{
+    color: gray;
+}
+
+a{
+    color: rgb(32, 15, 0);
+    text-decoration: none;
+    background: rgb(255, 221, 0);
+    padding: 12px 8px;
+    border-radius: 4px;
+    display: inline-block;
+    margin-top: 6px;
+}

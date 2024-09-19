@@ -1,0 +1,11 @@
+.quadrado{
+    width: 250px;
+    height: 140px;
+    background: rgb(10, 100, 0  );
+    border: 10px solid black;
+    margin-bottom: 50px;
+}
+h1{ background: rgb(127, 5, 188);
+padding: 20px;
+border: 10px solid black;
+}
