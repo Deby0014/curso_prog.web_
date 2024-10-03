@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Site direcionado a entender semanticas</h1>
+
+    <h2>Nav</h2>
+    <p>
+      A tag NAV e utiizada para ser elemento pai de links, pois sao intens de
+      Navegação. O atributo aria-label e utilizado para nomear o tipo de
+      navegação ( primaria,segundario )
+    </p>
+    <nav aria-label="primaria">
+      <a href="">Link 1 </a>
+      <a href="">Link 2 </a>
+      <a href="">Link 3 </a>
+      <a href="">Link 4 </a>
+      <a href="">Link 5 </a>
+    </nav>
+
+    <article aria-labelledby="artigo">
+      <h2 id="artigo">article</h2>
+      <p>
+        A tag article e uma seção ( parte) do site que nai precisa do site todo
+        para fazer sentido, ou seja, é uma região auto-explicativa.
+      </p>
+      <p>
+        O aria-labelledby é um atributo utilizado quando se quer evitar
+        repetições de palavras proximas no leitor de tela, ex: se você colocar
+        um titulo 'celular' e uma descrição aria-label = 'celular', o leitor de
+        tela lerá duas vezes a palavra celular causando desconforto. Então,
+        utilizamos im ID no titulo e um ara-labelledby com, assim o leitor de
+        tela lerá somente uma vez.
+      </p>
+    </article>
+
+    <main>
+      <h2>main</h2>
+      <p>A tag main guarda o conteudo principal do site</p>
+
+      <h1>Tag OL, UL, DL e LI</h1>
+      <p>
+        A tag UL é utilizada para criar listas não ordenadas ( unordered list).
+        Ex:
+      </p>
+      <ul>
+        <li>Menus de um site</li>
+        <li>Lista de tópicos mais visitados</li>
+        <li>Lista de ingredientes</li>
+      </ul>
+      <h1>Ol é uma lista ORDENADA (ordered list). Ex:</h1>
+      <h2>Top 5 produtos mais vendidos do mês:</h2>
+      <ol>
+        <li>Barbeador Eletrico</li>
+        <li>Fritadeira S Oleo</li>
+        <li>Carrinho de Controle Remoto</li>
+        <li>Mouse DRagon Fight 3mil</li>
+        <li>Banco imobiliario</li>
+      </ol>
+
+      <h1>A tag dl</h1>
+      <p>
+        Marca uma lista de descrições (description list). A lista é criada com
+        dois elementos dt e dd. Ex:
+      </p>
+      <dl>
+        <dt>A tag DT</dt>
+        <dd>Esta tag marca o topico a ser falado</dd>
+        <dt>A tag dd</dt>
+        <dd>Esta tag marca a descrição do topico falado</dd>
+      </dl>
+    </main>
+
+    <section aria-label="section">
+      <h1>Tag section</h1>
+      <p>
+        A tag section pode ser utiizada para agrupar o conteudo do site em
+        diferentes regioes. Geralmente o conteudo necessita do seu contexto para
+        ser compreendido.
+      </p>
+    </section>
+
+    <section aria-labelledby="texto">
+      <h1 id="texto">semanticas para usar o texto</h1>
+      <dl>
+        <dt>Blockquote</dt>
+        <dd>
+          Utilizado para fazer citaçõe no HTML. Possui um atributo chamado
+          'cite', onde colocamos nele o valor: o local onde retiramos a citação
+        </dd>
+        <dt>Q</dt>
+        <dd>Marca uma citação inline, ou seja, dentro do texto.</dd>
+        <dt>Cite</dt>
+        <dd>Tag que serve para marcar obras (livros, filmes, pinturas, etc)</dd>
+        <dt>em</dt>
+        <dd>Tag utiliada para dar enfase em uma parte do texto</dd>
+        <dt>strong</dt>
+        <dd>
+          utilizado para marcar uma parte importante do site, a deixa em
+          <strong>negrito</strong></dd>
+      </dl>
+    </section>
+
+    <aside>
+      <p>
+        A tag aside é utilizada para marcar conteudo complementar ao principal
+        do site.
+      </p>
+      <p>
+        Exemplos: Lista de posts mais visitados, informações estras como a
+        descrição de um termo usado no artigo e mais.
+      </p>
+    </aside>
+
+    <header>
+      <h1>Tag Header</h1>
+
+      <p>
+        Marca o cabeçalho do site (banner), onde geralmente estão presentes a
+        marca, navegação do site e as vezes uma informação introdutoria.
+      </p>
+    </header>
+
+    <footer>
+      <h1>Tag Footer</h1>
+      <p>
+        É utilizada no final do site, geralmente possui dados de contato, outros
+        inks, infos de copyright.
+      </p>
+    </footer>
+  </body>
+</html>
