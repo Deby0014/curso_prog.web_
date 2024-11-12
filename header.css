@@ -1,0 +1,29 @@
+.header {
+  display: grid;
+  justify-content: center;
+  gap: calc(40rem / 16);
+  padding: calc(40rem / 16);
+}
+
+h1 {
+  justify-content: center;
+}
+.header_menu {
+  display: flex;
+  gap: calc(20rem / 16);
+}
+.header img {
+  justify-self: center;
+  width: calc(100rem / 16);
+}
+.header_menu a {
+  display: inline-block;
+  padding: calc(12rem / 16) calc(20rem / 16);
+  background-color: rgb(231, 89, 158);
+  text-transform: uppercase;
+  border-radius: calc(4rem / 16);
+  border: calc(2rem / 16) solid white;
+}
+.header_menu a:hover {
+  border: calc(2rem / 16) solid rgb(111, 24, 111);
+}

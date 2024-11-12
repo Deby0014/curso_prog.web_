@@ -1,0 +1,12 @@
+.experiencia{
+    color: rgba(228, 224, 235, 0.836);
+  font-size: calc(80rem / 16);
+  word-break: break-all;
+  line-height: 1;
+  text-transform: uppercase;
+  align-self:initial;
+  padding: calc(40rem / 16);
+}
+.texto{
+    font-size: 24px;
+}
