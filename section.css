@@ -4,9 +4,51 @@
   word-break: break-all;
   line-height: 1;
   text-transform: uppercase;
-  align-self:initial;
-  padding: calc(40rem / 16);
+  align-self: initial;
+  margin: 0;
 }
+
 .texto{
     font-size: 24px;
+}
+
+.linguagens{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+
+.div2{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: rgb(217, 212, 221);
+  justify-items: left;
+  align-items: start;
+  position: relative;
+  padding: 20px;
+  gap: 20px;
+}
+
+.div2 p{
+    background-color: rgb(217, 212, 221);
+    
+  display: grid;
+  
+}
+
+.section_coluna2{
+  display: grid;
+  gap: 20px;
+  
+}
+.div2 li{
+  padding: calc(12rem / 16) calc(20rem / 16);
+  background-color: antiquewhite;
+}
+
+.div2 .data{
+  position: absolute;
+  left: -90px;
+  top: 20px;
 }

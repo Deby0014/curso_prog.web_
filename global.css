@@ -1,7 +1,17 @@
-a{
-    text-decoration: none;
-    color: black;
+img{
+    max-width: 100%;
 }
-li{
+
+h1,h2,h3,h4,h5,p,li,ul{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: none;
+}
+ul{
+    margin: 0;
+    padding: 0px;
     list-style: none;
 }
