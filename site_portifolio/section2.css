@@ -1,0 +1,151 @@
+.empresas h2{
+    
+    padding: 120px ;
+}
+
+.empresas .experiencia{
+    color: rgba(0, 0, 0, 0.651);
+}
+
+
+
+
+.experiencia{
+    color: antiquewhite;
+
+}
+
+
+.grid{
+    margin: 60px 20px;
+}
+
+.formacao {
+    background-color: rgba(0, 0, 0, 0.918);
+    display: grid;
+    grid-template-columns: 1fr 2fr ;
+    padding: 120px 20px;
+    gap: 100px;
+}
+
+.experiencia ::before{
+    content: "";
+    display: block;
+    height: 100px;
+    width: 30px;
+    left: 30px;
+    
+    background: linear-gradient(#112c6d, #7891e4);
+    position: absolute;
+    top: -60px;
+    transform: rotate(45deg);
+}
+
+.formacao p{
+    color: rgb(119, 115, 115);
+    margin: 0px 0px 60px;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.formacao_extra{
+    gap: 30px;
+}
+.divpai{
+    gap: 40px;
+    display: flex;
+}
+
+.faculdade{
+   
+   background-color: black;
+   padding: 20px;
+   border-radius: 4px;
+   position: relative;
+  
+
+}
+
+.faculdade_lista h3{
+    color: antiquewhite;
+}
+
+.faculdade_tipo{
+    font-size: 16px;
+    color: antiquewhite;
+    margin: 10px;
+}
+
+.faculdade_tipo span{
+    color: antiquewhite;
+}
+
+.faculdade_tipo::before{
+    content: "";
+    display: block;
+    height: 20px;
+    width: 5px;
+    background: linear-gradient(#112c6d, #7891e4);
+    position: absolute;
+    left: -0px;
+}
+
+.faculdade_lugar{
+    color: antiquewhite;
+}
+
+.faculdade{
+    display: grid;
+    gap: 30px;
+}
+
+.h323{
+    color: rgb(109, 109, 109);
+    margin: 30px 0px 30px;
+    position: relative;
+}
+
+.li78{
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.li56{
+    display: grid;
+    margin-bottom: 40px;
+}
+
+.h324{
+    color: rgb(109, 109, 109);
+    margin: 30px 0px 30px;
+    position: relative;
+}
+
+.ul56{
+    display: grid; 
+   
+    
+}
+.li910{
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    
+    font-size: 20px;
+}
+
+.formacao::before{
+    content: "";
+    display: block;
+    height: 100px;
+    width: 30px;
+    left: 80px;
+    
+    background: linear-gradient(#112c6d, #7891e4);
+    position: absolute;
+    top: 2267px;
+    transform: rotate(45deg);
+}
+

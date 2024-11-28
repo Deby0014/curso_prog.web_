@@ -1,0 +1,14 @@
+.grid{
+    display: grid;
+    gap: calc(100rem / 16);
+    grid-template-columns: 1fr 2fr;
+}
+
+.descrição h1{
+    font-size: 50px;
+}
+
+.main h1{
+    font-size: 30px;
+}
+

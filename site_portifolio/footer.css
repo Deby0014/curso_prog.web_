@@ -1,0 +1,68 @@
+.div4{
+    background-color: rgba(0, 0, 0, 0.795);
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    padding: 120px 0px 60px;
+    gap: 100px;
+    
+}
+
+.ptexto{
+    color: antiquewhite;
+    font-size: 24px;
+    
+    
+}
+
+.li990{
+    color: antiquewhite;
+    font-size: 40px;
+    
+}
+
+.pdireitos{
+    color: white;
+   
+    font-size: 20px;
+}
+
+footer{
+    position: relative;
+}
+
+footer::before{
+    content: "";
+    display: block;
+    height: 100px;
+    width: 30px;
+    left: 80px;
+    
+    background: linear-gradient(#4e0161, #b078e4);
+    position: absolute;
+    top: -60px;
+    transform: rotate(45deg);
+}
+
+.h323::before{
+    content: "";
+    display: block;
+    height: 100px;
+    width: 30px;
+    left: -40px;
+    top: -37px;
+    background: url(book_resized.png) no-repeat center center;
+    position: absolute;
+    
+}
+
+.h324::before{
+    content: "";
+    display: block;
+    height: 100px;
+    width: 30px;
+    left: -40px;
+    top: -37px;
+    background: url(translate_resized.png) no-repeat center center;
+    position: absolute;
+    
+}
