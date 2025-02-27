@@ -1,0 +1,1 @@
+console.log('Olá, este é meu primeiro algoritimo')
